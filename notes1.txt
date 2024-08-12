@@ -1,0 +1,52 @@
+
+Welcome to IB Coding School
+
+1. What is HTML?
+
+HTML ==> HyperText Markup (Code) Language
+
+
+It is foundational language used to create websites.
+
+
+It structures the content in a Website e.g. text, images, videos, and other multimedia.
+
+
+It is supported by all modern web browsers and devices. 
+
+
+Backbone of all websites
+
+
+Very easy to learn HTML
+
+let's see the Practical use of HTML in Websites
+
+
+
+
+
+
+
+
+2. Setting Up the Environment
+
+Text Editor:
+To write HTML code, you'll need a text editor. There are many options available, but we will use:
+
+Visual Studio Code (VS Code) by Microsoft:
+
+Download and install VS Code
+
+3 ways to open VS Code
+
+change some settings in VS Code
+
+install some extensions (live server, material Icon and Prettier)
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+
+
+Semantic Elements:
+these are special tags/elements in HTML that clearly describe their purpose on a webpage, making it easier to understand and organize the content.
+
+
+
+
+
+
+
+
+ Importance of Semantic HTML:
+
+==> Essentail for both the structure and accessibility of web pages
+
+
+==> SEO(Search Engine Optimization) uses semantic html to better understand the content structure, which can lead to improved rankings
+
+
+==> Semantic elements makes the code more readable and understandable
+
+
+List of some semantic elements:
+
+1. <header>: 
+Represends:
+=> it is introductory content
+=> contain a set of navigational links of a webpage
+=> typically contain site title, logo and navigation menu
+
+e.g.
+<header>
+    <h1>My Website logo</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+2. <footer> 
+=> defines footer for a document/page or section
+=> usually contains 
+   - info about author, 
+   - links to related documents 
+   - and copyright informations
+
+e.g.
+<footer>
+    <p>&copy; 2024 My Website</p>
+    <a href="privacy.html">Privacy Policy</a>
+</footer>
+
+
+
+
+
+3. <main>
+typically for middle portion of a website main tag is used
+there should only be one <main> element per page
+
+eg.
+<main>
+    <section>
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to meet your needs.</p>
+    </section>
+    <section>
+        <h2>About Us</h2>
+        <p>Learn more about our company and our mission.</p>
+    </section>
+</main>
+
+
+
+
+
+4. <section>
+  =>  defines a section in a document
+e.g
+<section>
+    <h2>About Us</h2>
+    <p>We are a company dedicated to providing top-notch web development services.</p>
+</section>
+
+
+
+
+
+
+
+
+
+5. <nav>
+=> used for section of the document for navigation links
+=> can be used in header, footer or any other section where links are displayed
+
+e.g
+<nav>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+

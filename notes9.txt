@@ -1,0 +1,29 @@
+
+<div> tag
+
+=> used as a container/box to group other HTML elements together
+
+=> useful for structuring your HTML 
+
+=> With this tag we group elemtns together for styling with css or for Javascript/Typpescript Operations
+
+=> it is a block-level element (will be covered in lecture 10)
+
+
+
+
+
+ID Attribute:
+=> it is unique identifier assigned to a single HTML element
+=> used to target specific elements for styling with CSS or Operations with Javascript
+
+Note:
+id must have unique "no two elements should have the same id
+
+
+
+
+
+Class Attribute:
+=> used to assign one or more names to an HTML element
+=> multiple elements can share the same 'class'

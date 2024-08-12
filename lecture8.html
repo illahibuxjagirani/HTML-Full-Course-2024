@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture 8</title>
+</head>
+<body style="height: 10000px;">
+
+  <h1>HTML Form</h1>
+  <form >
+
+    <label for="name">Name:</label>
+    <!-- to connect lable and input we use id -->
+    <input type="text" id="name" name="name">
+<br>
+<hr>
+
+<label for="password">Password:</label>
+<input type="password" name="password" id="password">
+ <br>
+ <hr>
+ 
+<p>Select your Gender:</p>
+ <label for="gender">Male:</label>
+ <input type="radio" name="gender" id="male">
+<br>
+ <label for="gender">Female:</label>
+ <input type="radio" name="gender" id="female">
+ <br>
+ <label for="gender">others:</label>
+ <input type="radio" name="gender" id="others">
+<br>
+<hr>
+
+<p>My Hobbies:</p>
+<label for="swimming">Swimming:</label>
+<input type="checkbox" name="swimming" id="swimming">
+
+<br>
+<label for="cricket">Playing Cricket</label>
+<input type="checkbox" name="cricket" id="cricket">
+
+<br>
+<hr>
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+
+<br>
+<hr>
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+
+<br>
+<hr>
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" name="quantity" min="1" max="100">
+<br>
+<hr>
+
+<label for="file-upload">Upload a file:</label>
+<input type="file" id="file-upload" name="file-upload">
+
+<br>
+<hr>
+<label for="favcolor">Choose your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor">
+
+<br>
+<hr>
+<label for="volume">Volume:</label>
+<input type="range" id="volume" name="volume" min="10" max="100" value="0">
+
+<br>
+<hr>
+<label for="birthday">Birthday Month:</label>
+ <input type="month" id="birthday" name="birthday">
+
+<br>
+<hr>
+
+<label for="week">Select Week:</label>
+ <input type="week" id="week" name="week">
+
+<br>
+<hr>
+<label for="meeting">Meeting Date and Time:</label>
+<input type="datetime-local" id="meeting" name="meeting">
+
+<br>
+<hr>
+<input type="button" value="ib coding">
+
+<br>
+<hr>
+
+<label for="name">Name</label>
+<input type="text" name="name" id="name"> <br>
+<input type="reset" value="Reset Form">
+
+<br>
+<hr>
+<input type="submit" value="Submit form">
+
+<br>
+<hr>
+<label for="message">Message:</label>
+<textarea name="message" id="message" rows="3" cols="30"></textarea>
+<br>
+<hr>
+<label for="country">Country:</label>
+<select name="country" id="country">
+<option  value="pak">Pakistan</option>
+<option   value="iran">Iran</option>
+<option  value="uae">UAE</option>
+
+</select>
+
+
+<br>
+<hr>
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+
+
+<br>
+<hr>
+
+<fieldset>
+  <legend>My Form</legend>
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name">
+<br>
+  <label for="number">Phone Number:</label>
+  <input type="number" name="number" id="number">
+</fieldset>
+
+<br>
+<hr>
+<label for="file">File Upload:</label>
+<progress id="file" value="80" max="100">80%</progress>
+
+  </form>
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+!DOCTYPE
+It is used to define version of html
+
+<!DOCTYPE html> is for HTML5 (modern html)
+older version like html 1.0, html 4.0 etc
+
+<!DOCTYPE html> is written at the top of html file to show that html file is modern html html5
+
+let's create a file 
+
+
+
+
+
+
+
+
+Tags:
+
+`<html>`
+the root element of an HTML document. 
+contains`<head>` and `<body>` sections/tags.
+
+
+
+`<head>`
+contains meta-information/SEO about the HTML document that is not displayed directly on the webpage. 
+This includes:  
+title tag,
+linked CSS, 
+JavaScript files, 
+meta tags ==> information about html document
+
+
+
+`<title>`
+title of the HTML document, 
+displayed on the browser's title bar or tab.
+
+
+
+
+
+`<body>`
+contains the content of the HTML document 
+visible to users. 
+This includes:
+text, images, videos, links, tables, and other elements 
+
+
+Heading (h) tags
+`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`
+`<h1>` being the highest level (most important) 
+`<h6>` being the lowest level (least important).
+helpful for search engine optimization (SEO)
+Note: Do not use h1 to h6 for increasing size of text!

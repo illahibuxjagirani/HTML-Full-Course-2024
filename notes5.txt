@@ -1,0 +1,12 @@
+
+! Emmet (used to define basic syntax of html page)
+
+<p> tag (paragraph)
+
+<a> tag (Anchor)
+
+<img> tag (Image)
+
+<br> tag (line break)
+
+<hr> tag (draw a line below)

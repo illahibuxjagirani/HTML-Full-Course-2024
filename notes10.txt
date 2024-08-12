@@ -1,0 +1,24 @@
+
+Block and Inline Elements:
+
+Block Elements:
+=> these elements take up the full width available
+=> starts with a new line and push following content to the next line
+
+e.g
+<div>, <h1>, <p>
+
+
+
+
+
+
+
+
+Inline Elements:
+==> these elements only take up as much width as necessary
+==> Do not start on a new line
+--> allowing other elements to sit next to them on the same line
+
+e.g.
+<span>, <a>, <img>, <b>

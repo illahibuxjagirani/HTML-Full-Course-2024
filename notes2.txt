@@ -1,0 +1,8 @@
+Basic Syntax of HTML Page:
+
+Steps:
+1. create a new folder
+
+2. open your folder in VS Code
+
+3. create a new file. Name the file anything you like, but make sure it ends with ".html"

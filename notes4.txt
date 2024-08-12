@@ -1,0 +1,43 @@
+
+1. what are tags
+basic building blocks of HTML. 
+
+used to define elements 
+
+usually come in pairs: 
+a. opening tag/starting tag (<h1>)
+b. closing tag/ending tag (</h1>)
+
+Note: some tags just have opening tag e.g <br> <img> etc.
+
+
+
+
+
+
+
+
+
+
+
+
+1. What are Elements:
+they are consists of ==> (opening tag + content + closing tag)
+The HTML element is everything from the start tag to the end tag:
+
+Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+
+
+
+
+
+
+
+
+3. What are Attributes:
+
+provide additional information about HTML elements. 
+always included in the opening tag
+come in name/value pairs like name="value"
+setting various properties and behaviors in HTML Elements.

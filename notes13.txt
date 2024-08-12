@@ -1,0 +1,77 @@
+
+HTML entities:
+
+HTML entities are special codes
+used to represents characters or symbols that have special meaning in HTML
+
+e.g
+if you want to display '<', '>' etc. characters on a webpage as a text, you can't just use them directly, because browswer would interpret them as HTML code
+
+so that we use entities for that 
+
+
+
+
+
+
+
+Comman HTML Entities:
+
+1. &nbsp; (Non-Breaking space):
+used to add spaces between words '  '
+
+
+
+
+
+
+2. &copy; (Copyright Symbol)
+used to display Copyright Symbol " © "
+
+
+
+
+
+
+
+3. &lt; (Less than Symbol)
+used to represents less than sign '<'
+
+
+4. &gt; (Greater than Symbol)
+used to represents greater than sign '>'
+
+
+
+
+
+
+
+5. &amp; (Ampersand Symbol)
+used to represents the ampersand/and symbol '&'
+Note: you can directly use & but some browswers does not support it
+
+
+
+
+
+
+6. &quot; (double quote)
+used to represents double quote ' " '
+
+Note: you can directly use " but some browswers does not support it
+
+
+
+
+
+
+
+
+
+
+7. &apos; (single quote or apostrophe)
+used to represents single quote or apostrophe
+
+Note: you can directly use ' but some browswers does not support it
+

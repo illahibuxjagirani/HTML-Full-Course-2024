@@ -1,0 +1,53 @@
+
+HTML Multimedia
+HTML provides several ways to embed/insert multimedia content like:
+
+=> audio, 
+=> video, 
+=> even YouTube videos directly into your web pages.
+
+
+1. Embeding/inserting Audio
+<audio> element is used to embed/insert audio into your webpage
+audio formats like MP3, WAV, or OGG
+
+
+Syntax:
+<audio controls>
+    <source src="audio1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+  or
+
+<audio src="audio1.mp3" controls>
+    Your browser does not support the audio element.
+</audio>
+
+
+
+
+2. Embeding/inserting Video:
+<video> element is used to embed/insert video files into your webpage
+==> supported video formats include MP4, WebM, OGG
+
+Syntax:
+ <video controls width="200">
+    <source src="video1.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+or
+
+<video src="video1.mp4" controls width="200">
+    Your browser does not support the video element.
+</video>
+
+
+
+
+3. Embedding/inserting YouTube Videos
+<iframe> element is used to embed/insert youtube video
+
+process to embed YouTube Video
+Go to YouTube, search your desired Video, play it and click on share button then click on Embed, the copy the link and paste in your webpage

@@ -1,0 +1,95 @@
+1. <b> - Bold Text
+ used to make text bold.
+
+
+
+
+
+
+
+2. <strong> - Important Text
+used to make text bold (SEO treat that text as imporant text)
+
+
+
+
+
+
+
+
+3. <i> - Italic Text
+used to make text italic.
+
+
+
+
+
+
+
+
+4. <em> - Emphasized Text
+used to make text italic(SEO treat as emphasized text)
+same like <i>
+
+
+
+
+
+
+
+5. <mark> - Marked Text
+ used to highlight text. 
+ rendered with a yellow background (can be changed with CSS)
+ (it is avoided to use this tag)
+
+
+
+
+
+
+
+
+6. <small> - Smaller Text
+used to make text smaller
+
+
+
+
+
+
+
+7. <del> - Deleted Text
+ used to indicate text that has been deleted.  
+ rendered with a strikethrough.
+
+
+
+
+
+
+
+8. <ins> - Inserted Text
+ used to indicate text that has been inserted.  
+ rendered with an underline.
+
+
+
+
+
+
+
+
+9. <sub> - Subscript Text
+ used to display subscript text, 
+ that appears slightly below the normal line of text.
+
+
+
+
+
+
+
+
+10. <sup> - Superscript Text
+used to display superscript text,
+text that appears slightly above the normal line of text.

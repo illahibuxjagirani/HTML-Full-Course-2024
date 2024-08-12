@@ -1,0 +1,51 @@
+
+HTML Lists:
+
+1. Ordered Lists:
+<ol>
+used when sequence of items matters
+==> items are automatically numbered
+Syntax:
+<ol>
+  <li>Januaray</li>
+  <li>Feburary</li>
+  <li>March</li>
+  <li>April</li>
+</ol>
+
+
+
+you can customize numbering style:
+<ol type="1"> for numbers (default)
+<ol type="A"> for uppercase letters
+<ol type="a"> for lowercase letters
+<ol type="I"> for uppercase Roman numerals
+<ol type="i"> for lowercase Roman numerals
+
+
+
+
+
+
+
+
+
+2. Unordered Lists:
+<ul>
+==> used when order of items does not matters
+==> items are displayed with bullet points(can be changed)
+
+Customizing Unordered Lists:
+<ul type="disc"> for filled circles (default)
+<ul type="circle"> for hollow circles
+<ul type="square"> for squares
+
+
+
+
+
+
+
+
+Nested Lists:
+both <ul> and <ol> can be nested:

@@ -1,0 +1,341 @@
+
+<form> element:
+it is container for all input elements
+syntax:
+<form action="/submit-form" method="POST">
+  <!-- Form elements go here -->
+</form>
+
+
+
+
+
+
+1. <label> element:
+used to define labels for form elements
+syntax:
+<label for="name">Name:</label>
+
+
+
+
+
+
+
+
+2. <input> element
+used inside form element to create different types of input fields:
+types of input element:
+
+
+i. `type = "text"` (Single line text input)
+   - Syntax:
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name">
+
+
+
+
+
+
+
+
+ii. `type = "password"` (Input field for password)
+   - Syntax:
+    
+     <label for="password">Password:</label>
+     <input type="password" id="password" name="password">
+
+
+
+
+
+
+
+iii. `type = "radio"` (For single choice option)
+   - Syntax:
+     
+     <label for="gender">Male:</label>
+     <input type="radio" id="male" name="gender" value="male">
+
+     <label for="gender">Female:</label>
+     <input type="radio" id="female" name="gender" value="female">
+     
+
+
+
+
+
+
+
+iv. `type = "checkbox"` (For multiple-choice option)
+   - Syntax:
+    
+     <label for="swimming">Swimming:</label>
+     <input type="checkbox" id="swimming" name="swimming">
+     
+     <label for="cricket">Playing Cricket:</label>
+     <input type="checkbox" id="cricket" name="cricket">
+     
+
+
+
+
+
+
+
+
+v. `type = "email"` (Email input field)
+   - Syntax:
+     
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email">
+     
+
+
+
+
+
+
+
+
+
+vi. `type = "date"` (Date picker)
+   - Syntax:
+   
+     <label for="dob">Date of Birth:</label>
+     <input type="date" id="dob" name="dob">
+     
+
+
+
+
+
+
+
+
+
+vii. `type = "number"` (For numeric input)
+   - Syntax:
+    
+     <label for="quantity">Quantity:</label>
+     <input type="number" id="quantity" name="quantity" min="1" max="10">
+     
+
+
+
+
+
+
+
+
+
+
+viii. `type = "file"` (Create file upload button)
+   - Syntax:
+    
+     <label for="file-upload">Upload a file:</label>
+     <input type="file" id="file-upload" name="file-upload">
+     
+
+
+
+
+
+
+
+
+
+ix. `type = "color"` (Create color picker)
+   - Syntax:
+     
+     <label for="favcolor">Choose your favorite color:</label>
+     <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+     
+
+
+
+
+
+
+
+
+
+x. `type = "range"` (Create a slider control for numeric input)
+   - Syntax:
+    
+     <label for="volume">Volume:</label>
+     <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+     
+
+
+
+
+
+
+
+
+
+
+xi. `type = "month"` (Select month and year)
+   - Syntax:
+    
+     <label for="birthday">Birthday Month:</label>
+     <input type="month" id="birthday" name="birthday">
+
+
+
+
+
+
+
+
+
+xii. `type = "week"` (Select specific week of the year)
+   - Syntax:
+     
+     <label for="week">Select Week:</label>
+     <input type="week" id="week" name="week">
+     
+
+
+
+
+
+
+
+
+xiii. `type = "datetime-local"` (Select both a date and time)
+   - Syntax:
+   
+     <label for="meeting">Meeting Date and Time:</label>
+     <input type="datetime-local" id="meeting" name="meeting">
+     
+
+
+
+
+
+
+
+
+
+
+xiv. `type = "button"` (Create clickable button)
+   - Syntax:
+     <input type="button" value="Click Me">
+     
+
+
+
+
+
+
+
+
+
+
+
+
+xv. `type = "reset"` (Reset all form values to their default)
+   - Syntax:
+     
+     <input type="reset" value="Reset Form">
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+xvi. `type = "submit"` (Submit button to submit form)
+   - Syntax:
+     <input type="submit" value="Submit">
+     
+
+
+
+
+
+
+
+
+
+3. <textarea> element (allows to enter multi-line text)
+syntax:
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+
+
+
+
+
+
+
+
+4. <select> and <option> elements:
+select element creates a dropdown list
+option element define the items in the list
+
+syntax:
+<label for="country">Country:</label>
+<select id="country" name="country">
+  <option value="pak">Pakistan</option>
+  <option value="pak">Iran</option>
+  <option value="pak">UAE</option>
+</select>
+
+
+
+
+
+
+
+
+
+
+
+5. <button> element:(used to create clickable buttons)
+e.g 
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+
+
+
+
+
+
+
+
+
+
+6. <fieldset> and <legend> elements:
+fieldset element is used to group related to form elements
+legend provide a caption/title for group
+
+
+
+
+
+
+
+
+
+
+7. <progress> element (represents the completion progress of a task)
+syntax:
+<label for="file">File Upload:</label>
+<progress id="file" value="32" max="100">32%</progress>
+
+
+
+ 

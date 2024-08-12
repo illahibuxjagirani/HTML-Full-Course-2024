@@ -1,0 +1,34 @@
+
+
+Table in HTML
+used to display data in a structured tabular format, consisting of rows and columns.
+
+
+
+
+Basic Structure of a Table
+A simple HTML table consists of the following elements:
+
+
+<table>: The container for the table.
+
+<thead>: Defines the table header section
+
+<tr>: Table row.
+
+<th>: Table header cell.
+
+<tbody> Defines the body section of the table
+
+<td>: Table data cell.
+
+
+other properties used in HTML Table
+border
+<table border="1"> (create a table with a border)
+
+<caption> (provide a title or description for the table)
+
+colspan (merge cells horizontally/merge columns)
+
+rowspan(merge cells vertically/merge rows)
